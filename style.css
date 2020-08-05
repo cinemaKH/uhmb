@@ -1,8 +1,14 @@
+
 body {
 	/*background-image: url("iamuu.png"); 
 	background-size: cover;*/
 	background-color: black;
 	}
+
+#firstarea {
+	text-align: center;
+	margin-top: 200px;
+}
 
 img.Gb {
 	width: 150px;
@@ -11,5 +17,7 @@ img.Gb {
 
 p {
 	font-size: xx-large;
+	text-align: center;
 	color: white;
 }
+
