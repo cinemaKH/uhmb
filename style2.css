@@ -1,3 +1,38 @@
 body {
 	background-color: black;
+	background-image: url("image/iconuhmb.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
+
+ul {
+	margin-top: 350px;
+	list-style: none;
+	color: white;
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.outer{
+ 
+}
+
+
+a {
+	text-decoration: none;
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {
+	color: blue;
+}
+a:hover {
+	font-size: 50px;
+	transform: scale(2);
+	
+}
+a:active {color: black;}

@@ -1,3 +1,4 @@
+//フェードイン
 $(function(){
   $('body').fadeMover();
 });
