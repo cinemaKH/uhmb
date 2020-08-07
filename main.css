@@ -7,7 +7,7 @@ li{
 }
 
 .site-header{
-    background: gray;
+    background: #333;
     display: flex;
     padding: 5px 20px;
     position: fixed;
