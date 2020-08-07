@@ -7,3 +7,6 @@ $("head").append('<style>.box { opacity: 0;-ms-filter:"alpha( opacity=0 )";filte
 $(function(){
   $(".box").fadeMover();
 });
+
+//背景動画
+$("#ytPlayer").YTPlayer();

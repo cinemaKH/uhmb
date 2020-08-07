@@ -6,6 +6,33 @@ li{
     list-style: none;
 }
 
+.box{
+    float: left;
+    width: 170px ;
+    height: 200px;
+    background-color: gray;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    bottom: 40px;
+    border: solid 2px;
+    text-align: center;
+}
+
+.box img{
+     text-align: center;
+     margin-top: 5px;
+}
+
+.box p{
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.box a{
+    font-size: 15px;
+}
+
 .site-header{
     background: #333;
     display: flex;
@@ -74,12 +101,36 @@ li{
     padding: 80px 0;
 }
 
-div{
-    width: 1000px;
-    height: 700px;
+section{
     margin: 0 auto;
     background-color: gray;
     padding-top: 50px;
+    font-size: xx-large;
+}
+
+#Aboutus{
+    width: 1000px;
+    height: 700px;
+}
+
+#Member{
+    width: 1000px;
+    height: 700px;
+}
+
+#History{
+    width: 1000px;
+    height: 700px;
+}
+
+#Music{
+    width: 1000px;
+    height: 700px;
+}
+
+#Movie{
+   width: 1000px;
+   height: 700px;
 }
 
 div.top{
@@ -87,12 +138,15 @@ div.top{
     background-color: black;
 }
 
+iframe{
+    margin-left: 10px;
+}
 
 /* 画面外にいる状態 */
 .fadein {
     opacity : 0.1;
-    transform : translate(0, 50px);
-    transition : all 500ms;
+    transform : translate(0, 150px);
+    transition : all 800ms;
     }
 
 /* 画面内に入った状態 */

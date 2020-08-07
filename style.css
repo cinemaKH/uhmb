@@ -8,14 +8,27 @@ body {
 	margin-top: 200px;
 }
 
+#ytPlayerWrap{
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
 img.Gb {
 	width: 150px;
 	height: 150px;
+	position: relative;
+	bottom: 190px;
 }
 
 p {
 	font-size: xx-large;
 	text-align: center;
 	color: white;
+}
+
+#firstarea p{
+	position: relative;
+	bottom: 170px;
 }
 
