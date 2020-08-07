@@ -1,0 +1,96 @@
+body{
+    background: black;
+}
+
+li{
+    list-style: none;
+}
+
+.site-header{
+    background: gray;
+    display: flex;
+    padding: 10px 20px;
+    position: fixed;
+    justify-content: space-between;
+    width: 95%;
+    opacity: 0.9;
+    z-index: 9999;
+}
+
+.site-logo img{
+    height: 30px;
+    width: auto;
+}
+
+.gnav_menu{
+    display: flex;
+}
+
+.gnav_menu_item{
+    margin-left: 40px;
+}
+
+.gnav_menu_item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 1s;
+    -webkit-transition: .5s;
+}
+
+.gnav_menu_item a:hover{
+    color: blue;
+    font-size: 30px;
+    transform: scale(2);    
+}
+/*
+.hero{
+    max-height: 500px;
+    overflow: hidden;
+}
+.hero img{
+    height: auto;
+    width: 100%;
+}
+*/
+.content{
+    line-height: 1.6;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 90%;
+    text-align: center;
+}
+
+.content p{
+    margin-bottom: 40px;
+}
+
+.site-footer{
+    background: #333;
+    padding: 80px 0;
+}
+
+div, iframe{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+/* 画面外にいる状態 */
+.fadein {
+    opacity : 0.1;
+    transform : translate(0, 50px);
+    transition : all 500ms;
+    }
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+    }
+
+h1 {
+    font: white;
+}
