@@ -6,11 +6,11 @@ li{
     list-style: none;
 }
 
-.box{
+.mem{
     float: left;
     width: 170px ;
     height: 200px;
-    background-color: gray;
+    background-color: ;
     display: inline-block;
     margin: 5px;
     position: relative;
@@ -19,17 +19,17 @@ li{
     text-align: center;
 }
 
-.box img{
+.mem img{
      text-align: center;
      margin-top: 5px;
 }
 
-.box p{
+.mem p{
     font-size: 20px;
     line-height: 5px;
 }
 
-.box a{
+.mem a{
     font-size: 15px;
 }
 
@@ -106,6 +106,23 @@ section{
     background-color: gray;
     padding-top: 50px;
     font-size: xx-large;
+
+    /*background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(gray 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, black 75px, black 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, black 76px, black 77px, transparent 78px, transparent 109px),
+    gray;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    */
+}
+
+h1{
+   /*-webkit-text-stroke: 2px aqua;
+   text-stroke: 2px aqua;
+   */
 }
 
 #Aboutus{
@@ -118,9 +135,15 @@ section{
     height: 700px;
 }
 
-#History{
+#Gallery{
     width: 1000px;
     height: 700px;
+    
+}
+
+#Galeery img{
+    width: 200px;
+    margin-left: 10px;
 }
 
 #Music{
