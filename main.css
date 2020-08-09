@@ -130,6 +130,11 @@ h1{
     height: 700px;
 }
 
+#Aboutus p{
+    font-size: 100px;
+    text-align: center;
+}
+
 #Member{
     width: 1000px;
     height: 700px;
@@ -137,13 +142,23 @@ h1{
 
 #Gallery{
     width: 1000px;
-    height: 700px;
-    
+    height: 710px;
 }
 
-#Galeery img{
-    width: 200px;
-    margin-left: 10px;
+#Gallery img{
+    margin: 10px;
+    height: 150px;
+}
+
+#Gallery div{
+    width: 950px;
+    height: 190px;
+    overflow-x: scroll;
+    border: solid 2px;
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    margin: 5px;
 }
 
 #Music{
@@ -178,3 +193,12 @@ iframe{
     transform : translate(0, 0);
     }
 
+#Gallery div::-webkit-scrollbar {
+  width: 5px;
+}
+#Gallery div::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+}
+#Gallery div::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}

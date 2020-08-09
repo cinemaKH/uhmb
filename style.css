@@ -1,24 +1,33 @@
 
 body {
 	background-color: black;
-	}
+	background-image: url(https://j.gifs.com/Jywk89.gif);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	margin-top: 200px;
+}
+
+p{
+	position: relative;
+	bottom: 190px;
+}
 
 #firstarea {
 	text-align: center;
 	margin-top: 200px;
 }
 
-#ytPlayerWrap{
-  position: relative;
-  height: 500px;
-  width: 100%;
+#firstarea p{
+	position: relative;
+	top: 195px;
 }
 
 img.Gb {
 	width: 150px;
 	height: 150px;
 	position: relative;
-	bottom: 190px;
+	top: 200px;
 }
 
 p {
