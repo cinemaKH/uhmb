@@ -27,6 +27,7 @@ li{
 .mem p{
     font-size: 20px;
     line-height: 5px;
+    margin-top: 1px;
 }
 
 .mem a{
@@ -127,7 +128,7 @@ h1{
 
 #Aboutus{
     width: 1000px;
-    height: 700px;
+    height: 500px;
 }
 
 #Aboutus p{
@@ -161,9 +162,13 @@ h1{
     margin: 5px;
 }
 
+#Gallery p{
+    margin-top: 5px;
+}
+
 #Music{
     width: 1000px;
-    height: 700px;
+    height: 600px;
 }
 
 #Movie{
@@ -183,7 +188,7 @@ iframe{
 /* 画面外にいる状態 */
 .fadein {
     opacity : 0.1;
-    transform : translate(0, 150px);
+    transform : translate(0, 120px);
     transition : all 800ms;
     }
 
@@ -194,7 +199,7 @@ iframe{
     }
 
 #Gallery div::-webkit-scrollbar {
-  width: 5px;
+  width: 7px;
 }
 #Gallery div::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.3);
