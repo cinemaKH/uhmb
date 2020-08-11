@@ -131,10 +131,28 @@ h1{
     height: 500px;
 }
 
-#Aboutus p{
-    font-size: 100px;
-    text-align: center;
+#Aboutus div {  
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    bottom: 130px;
 }
+
+#Aboutus .us {
+    font-size: 40px;
+    border: solid 2px;
+    position: relative;
+    margin:  80px;
+    bottom: 80px;
+}
+
+#Aboutus p{
+    font-size: 27px;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+}  
+
 
 #Member{
     width: 1000px;
